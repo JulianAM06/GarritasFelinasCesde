@@ -12,6 +12,11 @@ body {
     background: black;
 }
 
+.inactive {
+    display: none;
+}
+
+/* estilos del footer */
 footer {
     display: flex;
 }
@@ -27,27 +32,25 @@ footer {
     align-items: flex-start;
     justify-content: space-evenly;
     border-top: 1px solid whitesmoke;
-    
-    
 }
 
-.nav-footer-ul li {
+.nav-footer-ul button {
     transition:calc(2.5s);
     margin: 2%;
     padding: 2%;
     list-style: none;
     border-radius: 4px;
-    
-    
+    background-color: transparent;
+    color: white;
 }
 
-.nav-footer-ul li:hover {
+.nav-footer-ul button:hover {
     border-radius: 4px;
     background-color: #dc3545;
     border: 1px outset whitesmoke;
 }
 
-.nav-footer-ul li a {
+.nav-footer-ul button a {
     text-decoration: none;
     color: whitesmoke;
 }
@@ -74,7 +77,12 @@ footer {
     margin:5px;
     border-radius: 50%;
     background-color: whitesmoke;
-    
+}
+
+.menuContacto {
+    background-color: aliceblue;
+    color: #dc3545;
+
 }
 
 
