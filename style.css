@@ -13,7 +13,7 @@ body {
 }
 
 .inactive {
-    display: none;
+    display: none !important;
 }
 
 /* estilos del footer */
